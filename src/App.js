@@ -13,7 +13,20 @@ export default function App() {
           <Dictionary />
         </main>
         <small>
-          <footer className="App-footer">Coded by Lina Moramaga</footer>
+          <footer className="App-footer">
+            Coded by{" "}
+            <a href="https://github.com/lmoramaga" target="blank">
+              Lina Moramaga
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/lmoramaga/dictionary-project"
+              target="blank"
+            >
+              {" "}
+              open-sourced
+            </a>
+          </footer>
         </small>
       </div>
     </div>
