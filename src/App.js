@@ -10,24 +10,30 @@ export default function App() {
           <img src={logo} className="App-logo" alt="logo img-fluid" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
-        <small>
-          <footer className="App-footer">
+
+        <footer className="App-footer">
+          <small>
             Coded by{" "}
-            <a href="https://github.com/lmoramaga" target="blank">
+            <a
+              href="https://github.com/lmoramaga"
+              target="_blank"
+              rel="noreferrer"
+            >
               Lina Moramaga
             </a>{" "}
             and is{" "}
             <a
               href="https://github.com/lmoramaga/dictionary-project"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
             >
               {" "}
               open-sourced
             </a>
-          </footer>
-        </small>
+          </small>
+        </footer>
       </div>
     </div>
   );
