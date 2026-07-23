@@ -1,23 +1,23 @@
 .Phonetic {
-  margin: 20px 0;
+  text-align: left;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
-.Phonetic a {
-  display: inline-block;
+.Phonetic button {
   padding: 8px 16px;
   border: 1px solid #6c63ff;
   border-radius: 20px;
+  cursor: pointer;
   color: #6c63ff;
   text-decoration: none;
   font-size: 14px;
   transition: all 0.3s ease;
 }
 
-.Phonetic a:hover {
+.Phonetic button:hover {
   background-color: #9670f4;
   color: white;
 }
